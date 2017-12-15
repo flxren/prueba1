@@ -1,0 +1,45 @@
+/* ~holi este es un comentario~ la estructura de css es así:
+selectores {
+	propiedades: valores;
+	propiedades: valores;
+	propiedades: valores;
+}
+*/
+p {
+	/* BOX MODEL */
+	padding-top: 100px;
+	padding-bottom: 500px;
+	padding-left: 50px;
+	padding-right: 50px;
+	/* otra forma de identificarlo, va en sentido de las agujas del reloj */
+	/* padding: 20px 30px 40px 50px; SIN COMAS */
+
+	border: 5px solid green; /* al igual que padding, puede dividirse según el border top left etc */
+
+	margin: 10px 8px; /* al igual que padding, puede dividirse según el border top left etc */
+
+	/* END BOX MODEL */
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #FF0000;
+	text-decoration: underline; /* line-through, none, la ultima se usa para x ej. sacarle el subrayado a los links */
+}
+
+h1 {
+	font-family: Georgia, serif;
+	font-size: 24px;
+	font-style: italic;
+	color:red;
+	background-color: black;
+	line-height: 30px;
+}
+
+a {
+	font-weight: bold; /* para otro grosor se usan números */
+	letter-spacing: 3px;
+	word-spacing: 10px;
+	text-align: left; /* right, center, justify, este último no se usa */
+	text-indent: 20px; /* sangría de texto */
+	text-transform: uppercase; /* lowercase, capitalize (1° en mayuscula y demas min) */
+}

@@ -1,0 +1,67 @@
+body { 
+	background: honeydew;
+	color: #000000;
+	font-family: Arial, serif;
+	font-size: 15px;
+	margin: 10px;
+	padding: 10px;
+	 }
+
+#encabezado {
+	background-color: plum;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 3px;
+
+}
+
+#encabezado h1 { word-spacing: 1px; letter-spacing: 3px; font-size: 40px; }
+#encabezado h2 { word-spacing: 1px; letter-spacing: 1px; font-size: 25px; }
+
+#navegacion {
+	color: pink;
+	background: papayawhip;
+	margin: 10px;
+	padding: 30px;
+	font-family: Helvetica, sans-serif; 
+	font-size: 14px;
+	text-transform: uppercase; 
+	word-spacing: 1px; 
+	letter-spacing: 2px; 
+	line-height: 25px; 
+
+}
+
+ul#navegacion {overflow: auto;}
+ul#navegacion li {float: left; margin-left:20px; padding-left:10%;text-align: center;}
+
+#navegacion li {
+	list-style-type: none;
+
+}
+
+#navegacion li a:link {
+	color: dimgray;
+	text-decoration: none;
+}
+
+#contenido_principal {
+	margin: 40px 100px;
+}
+
+#contenido_principal h3 { 
+	border-bottom: 3px solid darkviolet; 
+	text-transform: uppercase; 
+	font-size: 20px; 
+	letter-spacing: 2px; 
+}
+
+#navegacion li .actual { color: skyblue; }
+
+#navegacion a:visited {
+	font-style: italic;
+	color: mediumpurple;
+}
+
+#navegacion a:hover { font-weight: bold; }
